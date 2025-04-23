@@ -1,0 +1,6 @@
+{
+  "includePrivate": false,
+  "host": "localhost",
+  "port": 8888,
+  "root": "public"
+}
