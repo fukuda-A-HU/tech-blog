@@ -54,3 +54,8 @@ https://zenn.dev/zenn/articles/zenn-cli-guide
 ### Zenn CLI をGithubActionsで使う
 https://zenn.dev/zenn/articles/zenn-cli-github-actions
 ```
+
+### Copilotで記事を書くときのテンプレート
+
+
+Zenn Cliを用いて、
