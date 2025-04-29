@@ -19,7 +19,7 @@
   "homepage": "https://github.com/fukuda-A-HU/tech-blog#readme",
   "dependencies": {
     "qiita": "^1.2.0",
-    "zenn-cli": "^0.1.158"
+    "zenn-cli": "^0.1.159"
   },
   "devDependencies": {
     "@qiita/qiita-cli": "^1.6.2"
