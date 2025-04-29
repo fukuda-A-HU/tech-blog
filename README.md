@@ -57,5 +57,7 @@ https://zenn.dev/zenn/articles/zenn-cli-github-actions
 
 ### Copilotで記事を書くときのテンプレート
 
+zenn-cliを用いて、下記の内容の技術記事を書いてください。
 
-Zenn Cliを用いて、
+初心者にもわかるようにしてください。
+コードはなるべくシンプルにしてください。
