@@ -36,7 +36,7 @@ npx zenn preview
 npx zenn preview --open
 ```
 
-### Qiita CLI の使い方
+ Qiita CLI の使い方
 
 
 
