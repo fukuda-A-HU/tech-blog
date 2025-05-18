@@ -95,6 +95,39 @@ flowchart TD
 - `[[]]`: サブルーチン形
 - その他多数
 
+### グループ化
+
+```mermaid
+flowchart TD
+    subgraph グループ1
+        A[開始] --> B{条件判断}
+    end
+    subgraph グループ2
+        C[処理1]
+        D[処理2]
+    end
+    B -->|Yes| C
+    B -->|No| D
+    C --> E[終了]
+    D --> E
+```
+コード：
+
+```
+flowchart TD
+    subgraph グループ1
+        A[開始] --> B{条件判断}
+    end
+    subgraph グループ2
+        C[処理1]
+        D[処理2]
+    end
+    B -->|Yes| C
+    B -->|No| D
+    C --> E[終了]
+    D --> E
+```
+
 ## シーケンス図の作成
 
 システム間の相互作用を表現するのに最適です。
@@ -136,6 +169,7 @@ classDiagram
     Duck: +swim()
     Duck: +quack()
     Fish: +swim()
+
 ```
 
 コード：
@@ -151,6 +185,8 @@ classDiagram
     Duck: +quack()
     Fish: +swim()
 ```
+
+
 
 ### 関係性の表現
 
